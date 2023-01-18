@@ -28,5 +28,7 @@ export class RegisterComponent {
     ]),
   });
 
-  constructor() {}
+  register() {
+    console.log('register called');
+  }
 }
